@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 4 - Formularios</title>
+</head>
+<body>
+    
+<!-- todos los elementos de formulario estan bajo la etiqueta form -->
+
+<form action="" method="">
+    
+    <fieldset>
+        <legend>Datos personales</legend>
+        <h4>Input tipo texto</h4>
+        <input type="text" placeholder="Ingrese su nombre" 
+                value="" name="nombre" minlength="1" 
+                maxlength="10"/>
+
+        <h4>Input tipo número</h4>
+        <input type="number" placeholder="Ingrese cantidad" 
+                value=0 name="cantidad" minlength="1"/>
+
+        <h4>Input tipo fecha</h4>
+        <input type="date" value="" name="fecha" />
+
+        <h4>Input tipo hora</h4>
+        <input type="time" placeholder="Ingrese fecha" 
+                value="" name="fecha" />
+    </fieldset>
+
+    <h4>Input tipo archivo</h4>
+    <input type="file" placeholder="Seleccione archivo" 
+            value="" name="archivo" />
+
+    <h4>Input tipo color</h4>
+    <input type="color" placeholder="Seleccione color" 
+            value="red" name="color" />
+            
+    <h4>Input tipo password</h4>
+    <input type="password" placeholder="Contraseña" 
+            value="" name="password" />
+
+    <h4>Input tipo email</h4>
+    <label for="email">Ingrese email
+        <input id="email" type="email" placeholder="Ingrese email" 
+                value="" name="email" required/>
+    </label>
+
+    <h4>Input tipo submit</h4>
+    <input type="submit" placeholder="Seleccione color" 
+            value="Submit" name="boton1" />
+    
+
+    <!-- Input de alternativa multiple -->
+    <h4>Input radio button</h4>
+    <input type="radio" name="opt_color" />Rojo
+    <input type="radio" name="opt_color" />Verde
+    <input type="radio" name="opt_color" />Azul
+
+    <h4>Input check box</h4>
+    <input type="checkbox" name="opt_color" />Rojo
+    <input type="checkbox" name="opt_color" />Verde
+    <input type="checkbox" name="opt_color" />Azul
+
+    <!-- select o combo box -->
+    <!-- se componen de 2 elementos el select y los elementos que lo integran -->
+    <!-- Por default la primera opción es la mostrada -->
+    <!-- cada option debe tener un valor porque es el que se envía cuando se selecciona -->
+    <h4>Select o combo box</h4>
+    <select name="cursos">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">Javascript</option>
+        <option value="react" selected>React</option>
+    </select>
+   
+    <h4>TextArea</h4>
+    <textarea 
+        placeholder="Ingrese su biografía"
+        name="biografia"
+        cols="60"
+        rows="20">
+    </textarea>
+
+    <h4>Botón de acción</h4>
+    <button type="submit" placeholder="Seleccione color" 
+    value="" name="boton2">Enviar</button>
+
+
+</form>
+
+
+
+</body>
+</html>
