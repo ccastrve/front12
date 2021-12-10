@@ -101,6 +101,10 @@ img {
     color: #3B06D2
 }
 
+.seccion1 div {
+    display: flex;
+}
+
 /*
   SERVICIOS
   aca iran estilos de la seccion servicios*/
@@ -109,6 +113,9 @@ img {
     color: #D206B2
 }
 
+.seccion2 div {
+    display: flex;
+}
 .seccion2 ul li:nth-child(1) {
     color: #FF0000
 }
@@ -134,7 +141,9 @@ img {
     color: #AAD206
 }
 
-
+.seccion3 div {
+    display: flex;
+}
 .seccion3 ul li:nth-child(1) {
     color: #AE8800
 }
