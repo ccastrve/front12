@@ -14,7 +14,7 @@ body {
 h2 {
     font-size: 24px;
     font-weight: bold;
-    margin-top: 66px;
+    /* margin-top: 66px; */
 }
 
 a {
@@ -45,6 +45,11 @@ img {
 .wrap main {
     flex-grow: 1;
     /* para que el main se extienda entre el header y footer*/
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*HEADER
