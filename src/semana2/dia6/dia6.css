@@ -53,7 +53,7 @@ a {
     /* recibe flex del header */
 }
 
-.header li {
+.header .li {
     margin-left: 30px;
 /* no es necesario .header ul li porque en este caso hay un solo bloques de li
 que no entran en conflicto */
@@ -111,5 +111,6 @@ que no entran en conflicto */
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    color: white;
 }
 
